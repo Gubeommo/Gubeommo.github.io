@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beom Site</title>
+</head>
+<body> 
+  
+    <div id="clockweathers">
+      <h2 id = "clock"></h2>
+      <div id ="weather">
+        <span><br></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="musicsay" class="hidden">
+      <div id ="align-music">
+        <h2 id="music-text">&#127925</h2>
+      <audio id ="music" controls>
+        <source src="https://docs.google.com/uc?export=open&id=1zrRehbh9vXGV8Z_0RfGaendtdWOXsgiV" type='audio/mp3' />
+       </audio>
+      </div>
+      
+      <h1 id = "greeting" class="hidden"></h1>
+    </div>
+    
+    <div id= "todopage" class="hidden">
+      <div id="mysidenav" class="sidenav">
+		 <a href="#" class="closebtn" onclick='closeNav()'>x</a>
+		 <h1>ToDoList</h1>
+         <div class = "todolist">
+         <form id="todo-form" ><br>
+            <input id ="inputtodolist" type = "text" placeholder="Write a To Do and Press Enter" required></input>
+         </form>
+         </div>
+         <div class="view">          
+            <ul id="todo-list"></ul>
+          </div>
+        <h1>Done List</h1> 
+        <div class="view">               
+            <ul id="done"></ul>
+         </div>
+        
+	</div>
+    <span class="openmenu" onclick='openNav()'><i class="fa fa-angle-double-left fa-5" aria-hidden="true"></i> &#128195 ToDo</span>
+    </div>
+    <form id="login-form" >
+        <div id = "first">
+        <h1 id = "stranger">Hello Stranger<br><p>I want to know about you...so..</p></h1>
+       <input id = "inputname"
+       required maxlength="15" 
+       type="text" 
+       placeholder="What is your name ?" />   
+       </div>
+    </form>
+    <div id ="align-status-text" class="hidden">
+        <h4 id  ="saystatus">How are you today</h4>
+    </div>
+    
+    <div id ="status-div" class=" hidden">
+     <div id="status-table" >
+         <button id="happy" class ="status">&#128522</button>
+         <button id ="sad" calss="status">&#128546</button>
+         <button id="angry" calss="status">&#128545</button>
+     </div>
+    </div>
+    <div id="speak" class="hideen">
+      <h3 id ="mainment"><br></h3>
+      <h3 id ="subment"></h3>
+    </div>
+    
+    
+  
+  
+    
+    <script src="js/greerhings.js"> </script>
+    <script src="js/clock.js"> </script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src = "js/weather.js"></script>   
+    <script src="js/menui.js"> </script>
+    
+   
+    
+</body>
+</html>
