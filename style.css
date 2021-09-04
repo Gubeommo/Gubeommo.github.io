@@ -1,0 +1,323 @@
+.hidden {
+    display : none;
+}
+body{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+   background-image: url("https://i.ibb.co/M7SqfDx/teahub-io-dnya-wallpaper-1523617.jpg") ;
+   background-size: cover;
+   transition:2s;
+}
+
+#first{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+}
+#inputname{
+    align-items: left;
+}
+
+p{
+    font-style :  serif;
+    font-size : 15px;
+}
+
+#inputname{
+    
+    font-size : 15px;
+    background : transparent;
+    border: none;
+    color : white;
+}
+#clock{
+    color: white;
+}
+#stranger{
+    font-style : oblique;
+    margin-top : 300px;
+    color : white;
+}
+
+/* 인삿말 부분*/
+#greeting{
+    margin-top: 1px;
+    margin-right : 5px;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+#greeting h1{
+    font-size : 25px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+
+#weather{
+    color : white;
+}
+#clockweathers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.sidenav .todolist {
+    width: 210px;
+    height: 60px;
+    border: 5px solid;
+    border-color: rgb(24 124 156);
+    border-radius: 10px;
+    display: flex;
+    
+}
+#inputtodolist:focus{
+    outline: none;
+
+}
+#inputtodolist{
+    
+    font-size : 15px;
+    background : transparent;
+    border: none;
+    color : white;
+    display: flex;
+}
+#todo-form{
+    display: flex;
+}
+
+#okBtn{
+    height: 12px;
+    width:  10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 100px;
+    border: none;
+    background-color: yellowgreen;
+    
+}
+#deleteBtn{
+    height: 12px;
+    width:  10px;
+    margin-right: 10px;
+    margin-left: 3px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(230, 44, 20);
+    
+}
+
+/*상태바 부분*/
+#status-table{
+    display : flex;
+    height: 100px;
+    width: 180px;
+    border : solid;
+    border-color: blue;
+    border-radius: 30px;
+    position: absolute;
+    justify-content: center;
+    transition:1s;
+    
+}
+#align-status-text{
+    width: 100%;
+    height: 100%;
+   
+    justify-content: center;
+    transition:1s;
+}
+#saystatus{
+    color: white;
+    transition:1s;
+
+}
+#status-div {
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center;
+    transition:2s;
+}
+#sad {
+    font-size : 20px;
+    background-color: transparent;
+    border: none;
+    width : 60px;
+}
+#sad:hover{
+    font-size : 20px;
+    background-color: rgba(71, 141, 245, 0.664);
+    border: none;
+    width : 60px;
+}
+#happy {
+    font-size : 20px;
+    background-color: transparent;
+    border: none;
+    width : 60px;
+}
+#happy:hover{
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px ;
+    font-size : 20px;
+    background-color: rgba(33, 252, 44, 0.664);
+    border: none;
+    width : 60px;
+}
+#angry {
+    font-size : 20px;
+    background-color: transparent;
+    border: none;
+    width : 60px;
+}
+#angry:hover{
+    border-top-right-radius:30px ;
+    border-bottom-right-radius:30px ;
+    font-size : 20px;
+    background-color: rgba(255, 14, 6, 0.664);
+    border: none;
+    width : 60px;
+}
+
+
+/*상태에 따른 메세지 부분*/
+#speak{
+    width: 100%;
+    height: 100%;
+   
+    
+    transition:1s;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#mainment{
+  
+    color: white;
+    margin-top: 1px;
+    margin-right : 5px;
+    color: white;
+    transition:1s;
+
+
+}
+#subment{
+    font-size: 15px;
+    color: white;
+    transition:1s;
+    
+}
+
+
+.view {
+    width:500px; 
+    height:300px; 
+    overflow-y:auto; 
+    white-space: normal;
+    margin:0 auto;
+    margin-top : 20px;
+    border : solid;
+    border-left-color: #054e66;;
+    border-top-color: rgb(5 69 90);
+    border-bottom-color: rgb(5 69 90);
+}
+
+#musicsay{
+    
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#music{
+    margin-left: 10px;
+    height: 50px;
+    opacity: 5;
+    transition: 0.5s ease-in-out;
+    width: 100px;
+}
+#music:hover{
+    opacity: 5;
+    transition: 0.5s ease-in-out;
+    width: 300px;
+}
+#align-music{
+    display: flex;
+    align-items: center;
+}
+#music-text{
+    color:white;
+}
+.sidenav {
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    left: 0;
+    background-color: rgba(5, 83, 109, 0.938);
+    overflow-x: hidden;
+    transition:0.5s ease-in-out;
+    padding-top: 60px;
+}
+.sidenav h1 {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.2s ease-in-out;
+}
+.sidenav h1:hover, .offcanvas h1:focus {
+    color: rgb(62, 74, 248);
+}
+.sidenav a:hover, .offcanvas a:focus {
+    color: rgb(62, 74, 248);
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.2s ease-in-out;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+.openmenu:hover {
+    color:rgb(0,154,200);
+    transition:0.5s ease-in-out;
+}
+.openmenu {
+    font-size: 25px;
+    cursor:pointer;
+    transition:0.5s ease-in-out;
+    color : white;
+}
+.openmenu > i {
+    font-size: 30px;
+}
+/* 미디어쿼리 적용 */
+@media screen and (max-height:550px) {
+    .sidenav {
+        padding-top:15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
