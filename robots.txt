@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gubeommo.github.io/sitemap.xml
