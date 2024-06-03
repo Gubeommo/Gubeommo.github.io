@@ -21,10 +21,11 @@ hidden : false
 
 ## Chripy Theme 적용
 
+> [Github 나만의 블로그 만들기(with chirpy)-1](https://gubeommo.github.io/posts/GitHub-Github-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B01.md/) 여기에 테마를 다운로드를 먼저 해야한다.
 
 ![image](https://github.com/Gubeommo/TIL/assets/86589565/f72c415c-53e9-42e6-b108-3956f2ca4833)
 
-다운받은 소스를 덮어 쓰기 한후에 
+다운받은 소스를  Clone 한 위치에 덮어 쓰기 한후에 
 
 
 ![image](https://github.com/Gubeommo/TIL/assets/86589565/c087c190-9e90-42c1-93b6-89014d77a9e8)
