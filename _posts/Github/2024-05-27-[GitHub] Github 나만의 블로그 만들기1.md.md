@@ -31,10 +31,29 @@ pin : false
 
 음.. 위에 방식에서 `Chirpy Starter`로 진행해보자
 
-> Github Fork를 해도 레포토리지를 만드는것또한 나머지 부분과 비슷하다. 
+> Github Fork를 해도 레포토리지를 만드는것또한 나머지 부분과 비슷하다. (만약 자신의 블로그를 커스텀 하고 싶으면 이 방법을 적극 추천한다.)
 {: .prompt-tip }
 
 
+<br>
+
+<details>
+<summary>Github Fork 방식</summary>
+
+<!-- summary 아래 한칸 공백 두어야함 -->
+## Git Fork 
+
+[Chripy Git Fork](https://github.com/cotes2020/jekyll-theme-chirpy/fork) 를 클릭해서 레포토지 이름을  계정명.Github.io로 하자
+
+![image](https://github.com/Gubeommo/TIL/assets/86589565/eec4fea3-c263-42c2-9ff8-9fe1fa193613)
+
+이렇게 표시가 되면 성공적으로 된것이다! 이 단계가 끝나면 바로 GitClone 단계로 가자!
+
+
+</details>
+
+
+<br>
 
 
 [Chirpy Starter](https://github.com/cotes2020/chirpy-starter) 들어가서 **Code**를 클릭해주고 다운로드 해주자 
