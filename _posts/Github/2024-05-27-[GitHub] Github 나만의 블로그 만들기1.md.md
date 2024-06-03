@@ -31,6 +31,9 @@ pin : false
 
 음.. 위에 방식에서 `Chirpy Starter`로 진행해보자
 
+> Github Fork를 해도 레포토리지를 만드는것또한 나머지 부분과 비슷하다. 
+{: .prompt-tip }
+
 
 
 

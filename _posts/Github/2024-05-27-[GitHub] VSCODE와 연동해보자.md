@@ -10,7 +10,7 @@ image : /assets/img/Git_Hub.png
 
 published: true
 hidden : false
-pin : true
+pin : false
 ---
 
 
