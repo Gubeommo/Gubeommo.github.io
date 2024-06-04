@@ -40,17 +40,20 @@ pin : false
 
 <details>
 <summary>Github Fork 방식</summary>
-
+<br>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
 ## Git Fork 
 
+<br>
 
 [Chripy Git Fork](https://github.com/cotes2020/jekyll-theme-chirpy/fork) 를 클릭해서 레포토지 이름을  계정명.Github.io로 하자
 
+<br>
 
 ![image](https://github.com/Gubeommo/TIL/assets/86589565/eec4fea3-c263-42c2-9ff8-9fe1fa193613)
 
+<br>
 
 이렇게 표시가 되면 성공적으로 된것이다! 이 단계가 끝나면 바로 GitClone 단계로 가자!
 
