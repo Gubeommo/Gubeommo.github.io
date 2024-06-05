@@ -60,7 +60,7 @@ published: true    # 게시 할건지
 
 블로그를 포스팅을하고 여러 사람들이 검색을 하여 들어 올 수 있도록 검색엔진에 등록해보자 !
 
-### stiempa.xml 작성
+### sitemap.xml 작성
 
 [sitemap 작성](https://github.com/Gubeommo/Gubeommo.github.io/blob/main/sitemap.html) 링크에 들어가 코드를 복사한후
 

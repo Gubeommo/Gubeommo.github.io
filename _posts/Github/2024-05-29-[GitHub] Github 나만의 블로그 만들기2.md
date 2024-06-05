@@ -26,7 +26,7 @@ hidden : false
 
 ![image](https://github.com/Gubeommo/TIL/assets/86589565/f72c415c-53e9-42e6-b108-3956f2ca4833)
 
-다운받은 테마 소스를  Clone 한 위치에 덮어 쓰기 한후에 
+다운받은 테마 소스를  Clone 한 위치에 덮어 쓰기 한후에 `_post`안에 있는 파일들을 전부 삭제해주자
 
 
 ![image](https://github.com/Gubeommo/TIL/assets/86589565/c087c190-9e90-42c1-93b6-89014d77a9e8)
@@ -34,6 +34,9 @@ hidden : false
 실행후
 
 자신이 클론한 위치에 이동후
+```console
+$ chcp 65001
+```
 
 ```console
 $ gem install jekyll bundler
