@@ -36,9 +36,24 @@ hidden : false
 자신이 클론한 위치에 이동후
 
 ```console
+$ gem install jekyll bundler
+$ gem install webrick
+```
+
+```console
+$ jekyll new ./
+```
+
+> 만약 conFlict 에러시  `jekyll new ./ -f` 를 입력해주자 
+{: .prompt-tip } 
+
+```console
 $ bundle
 ```
 
+```console
+$ bundle add webrick
+```
 
 ```console
 $ bundle exec jekyll serve
