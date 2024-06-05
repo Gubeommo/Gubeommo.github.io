@@ -48,6 +48,7 @@ $ jekyll new ./
 {: .prompt-tip } 
 
 ```console
+$ bundle install
 $ bundle
 ```
 
