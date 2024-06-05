@@ -62,7 +62,7 @@ published: true    # 게시 할건지
 
 ### sitemap.xml 작성
 
-[sitemap 작성](https://github.com/Gubeommo/Gubeommo.github.io/blob/main/sitemap.html) 링크에 들어가 코드를 복사한후
+[sitemap 작성](https://github.com/Gubeommo/Gubeommo.github.io/blob/main/sitemap.xml) 링크에 들어가 코드를 복사한후
 
 `root`폴더 아래에 `sitemap.xml` 생성후 넣어주고 `Commit` 과 `Push`를 해주자
 
