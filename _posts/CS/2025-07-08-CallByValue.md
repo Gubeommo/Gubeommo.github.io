@@ -8,6 +8,7 @@ tags:
   ]
 
 
+image : ./assets/img/DrawResource/csimage.png
 published: true
 hidden : false
 ---
