@@ -8,7 +8,7 @@ tags:
   ]
 
 
-image : ./assets/img/DrawResource/csimage.png
+image : ./assets/img/DrawnResource/csimage.png
 published: true
 hidden : false
 ---
@@ -23,10 +23,12 @@ hidden : false
 
 ## 📚 미리보는 결론!
 
+
 | 방식              | 뜻                       | 값이 바뀔까? | 설명                            |
 | ----------------- | ------------------------ | ------------ | ------------------------------- |
 | Call by Value     | 값 전달                  | ❌ 안 바뀜    | 원본이 아닌 **복사본**이 넘어옴 |
 | Call by Reference | 참조 전달 (`ref`, `out`) | ✅ 바뀜       | 원본을 **직접 조작**함          |
+
 ---
 
 ## 📑 Call by Value (값 전달)

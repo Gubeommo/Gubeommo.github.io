@@ -7,7 +7,7 @@ tags:
   CS, List, HashSet
   ]
 
-image : ./assets/img/DrawResource/csimage.png
+image : ./assets/img/DrawnResource/csimage.png
 published: true
 hidden : false
 ---
