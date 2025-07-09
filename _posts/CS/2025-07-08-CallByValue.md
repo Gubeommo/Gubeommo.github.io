@@ -1,17 +1,17 @@
 ---
-title: [CS] Call by Value Reference 
-date: 2025-07-8 +09:00
+title: "[CS] Call By Value Call By Reference"
+date: 2025-07-09 +09:00
 categories: [Tech, CS]
 tags:
-  [
-  CS, CallByValue
+  [ 
+    CS, 
+    CallByValue 
   ]
-
-
 image : ./assets/img/DrawnResource/csimage.png
 published: true
 hidden : false
 ---
+
 
 
 ## 💡 Call By Value Call By Reference

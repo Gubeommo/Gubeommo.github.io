@@ -1,12 +1,11 @@
 ---
-title: [CS] List<T> vs HashSet<T>
+title: "[CS] List<T> vs HashSet<T>"
 date: 2025-07-8 +09:00
 categories: [Tech, CS]
 tags:
   [
   CS, List, HashSet
   ]
-
 image : ./assets/img/DrawnResource/csimage.png
 published: true
 hidden : false
