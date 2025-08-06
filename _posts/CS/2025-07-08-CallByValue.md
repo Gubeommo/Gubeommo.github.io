@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "[CS] Call By Value Call By Reference"
 date: 2025-07-09 +09:00
 categories: [Tech, CS]
@@ -131,4 +131,4 @@ void ChangeRef(ref Test t)  //ref 사용시 직접 연결됨
 
 - **Call by Value**는 **참조값을 복사**해서 넘기기 때문에,  함수 안에서 객체를 새로 만들어도 **원본에는 영향 없음**
 
-- **Call by Reference (`ref`)** 는  **참조 변수 자체를 넘기기 때문에**,   함수 안에서 참조를 바꾸거나 객체를 수정하면 **원본에도 그대로 반영됨**
+- **Call by Reference (`ref`)** 는  **참조 변수 자체를 넘기기 때문에**,   함수 안에서 참조를 바꾸거나 객체를 수정하면 **원본에도 그대로 반영됨** -->
